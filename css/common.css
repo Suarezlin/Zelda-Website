@@ -1,0 +1,90 @@
+body {
+    background: rgb(237, 235, 236);
+}
+
+.public-container {
+    background: rgb(255, 255, 255);
+    position: relative;
+    margin: 54px auto;
+    width: 1000px;
+    height: 508px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #999999;
+}
+
+.public-container header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.public-header {
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.public-content {
+    width: 100%;
+    height: 82%;
+}
+
+.public-overflow {
+    height: 100%;
+    width: 750px;
+    float: right;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-left: 30px;
+}
+
+.public-overflow::-webkit-scrollbar {
+    display: none;
+}
+
+.public-footer {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.public-body {
+    position: relative;
+    display: none;
+    height: 345px;
+    margin-top: 40px;
+    margin-left: 40px;
+    overflow: auto;
+    width: 510px;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.public-body h1 {
+    font-size: 26px;
+}
+
+.public-body hr {
+    float: left;
+    color: #666;
+    width: 70px;
+    margin-top: 10px;
+}
+
+.public-body .info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.public-body .info img {
+    border-radius: 50%;
+}
+
+.public-body p {
+    text-indent: 2em;
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 16px;
+}
